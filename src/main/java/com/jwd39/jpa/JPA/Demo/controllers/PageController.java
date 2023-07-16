@@ -10,4 +10,24 @@ public class PageController {
     public String indexPage(){
         return "index";
     }
+
+    @GetMapping("/about")
+    public String aboutPage(){
+        return "about";
+    }
+
+    @GetMapping("/pricing")
+    public String pricingPage(){
+        return "pricing";
+    }
+
+    @GetMapping("/features")
+    public String featuresPage(){
+        return "features";
+    }
+
+    @GetMapping("/contact")
+    public String contactPage(){
+        return "contact";
+    }
 }
